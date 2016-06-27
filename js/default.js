@@ -8,7 +8,7 @@ var message;
 
 for(i=0;i===input;i++){
   if(input[0]){
-    output=0
+    output[0]=0
   }
   
   if(input[i]%3===0){
