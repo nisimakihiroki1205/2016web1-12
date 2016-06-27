@@ -10,22 +10,21 @@ for(i=1;i<=100;i++)
 {
 
   output[i] = i;
-  
-  if(i%3 == 0)
-  {
-    document.write('Fizz') ;
-  }
-  if(i%5 ==0 )
-  { 
-   document.write('Buzz');
-  }
-  if(i%3 == 0&&input[i]%5 == 0)
+   if(i%3 == 0&&input[i]%5 == 0)
   {
     document.write('FizzBuzz');
   }
-  
-  
-  document.write('<p>'+i+'</p>');
+  else if(i%3 == 0)
+  {
+    document.write('Fizz') ;
+  }
+  else if(i%5 ==0 )
+  { 
+   document.write('Buzz');
+  }
+ 
 
-  
+  else document.write(+i+);
+
+  document.write('<p></p>');
 }
