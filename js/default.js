@@ -25,7 +25,7 @@ for(i=1;i<=100;i++)
   }
  
 
-  else document.write(+i+);
+  else document.write(i);
 
   document.write('<p></p>');
 }
