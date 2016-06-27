@@ -16,13 +16,13 @@ for(i=0;i<100;i++)
   
   
   if(input[i]%3 == 0){
-    output[i]=Fizz;
+    output[i] = Fizz;
   }
   if(input[i]%5 ==0 ){
-    output[i]=Buzz;
+    output[i] = Buzz;
   }
   if(input[i]%3 == 0&&input[i]%5 == 0){
-    output[i]=FizzBuzz;
+    output[i] = FizzBuzz;
   }
   if(i==100){
     break;
@@ -33,5 +33,5 @@ name = '鈴木';
 document.write("<p>名前:" + name + "</p>");
  document.write(''+i+'');
   document.write(''+output[i]+'');
-  document.write("aaaa");
+  
 }
