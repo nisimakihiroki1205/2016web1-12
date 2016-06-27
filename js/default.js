@@ -6,7 +6,7 @@ var output = 0;// = parseInt(window.prompt('正の数字を入力して下さい
 
 var message;
 document.write("aaaa");
-for(i=0;i<100;i++)
+for(i=1;i<=100;i++)
 {
   document.write("aaaa");
   
@@ -24,11 +24,9 @@ for(i=0;i<100;i++)
   {
     document.write('FizzBuzz');
   }
-  var name;
-
-  name = '鈴木';
-  document.write("<p>名前:" + name + "</p>");
+  
+  
   document.write(''+i+'');
-  document.write(''+output[i]+'');
+
   
 }
