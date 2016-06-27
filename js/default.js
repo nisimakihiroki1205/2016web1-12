@@ -2,7 +2,7 @@ var i = Math.floor(0);
 var input = Math.floor(0);
 var output;
 
-var answer = parseInt(window.prompt('正の数字を入力して下さい。'));
+var output = parseInt(window.prompt('正の数字を入力して下さい。'));
 
 var message;
 
