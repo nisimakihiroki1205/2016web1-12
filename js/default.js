@@ -16,13 +16,13 @@ for(i=0;i<100;i++)
   
   
   if(input[i]%3 == 0){
-    output[i] = Fizz;
+    document.write('Fizz') ;
   }
   if(input[i]%5 ==0 ){
-    output[i] = Buzz;
+   document.write('Buzz');
   }
   if(input[i]%3 == 0&&input[i]%5 == 0){
-    output[i] = FizzBuzz;
+    document.write('FizzBuzz');
   }
 
   var name;
