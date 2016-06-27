@@ -10,7 +10,7 @@ for(i=0;i<100;i++)
 {
   document.write("aaaa");
 
-  i++;
+ 
   
     output[i] = i;
   
@@ -24,9 +24,7 @@ for(i=0;i<100;i++)
   if(input[i]%3 == 0&&input[i]%5 == 0){
     output[i] = FizzBuzz;
   }
-  if(i==100){
-    break;
-  }
+
   var name;
 
 name = '鈴木';
