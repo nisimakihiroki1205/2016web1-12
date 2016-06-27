@@ -27,6 +27,10 @@ for(i=0;i<100;i++)
   if(i==100){
     break;
   }
+  var name;
+
+name = '鈴木';
+document.write("<p>名前:" + name + "</p>");
   document.write('output[i]');
   document.write("aaaa");
 }
