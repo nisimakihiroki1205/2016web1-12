@@ -6,9 +6,10 @@ var output = 0;// = parseInt(window.prompt('正の数字を入力して下さい
 
 var message;
 document.write("aaaa");
-while(){i++;
-  if(input[0]){
-    output[0] = 0
+while(){
+  i++;
+  if(input[i]){
+    output[i] = i
   }
   
   if(input[i]%3 == 0){
