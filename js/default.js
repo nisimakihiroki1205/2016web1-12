@@ -31,6 +31,6 @@ for(i=0;i<100;i++)
 
 name = '鈴木';
 document.write("<p>名前:" + name + "</p>");
-  document.write('output[i]');
+  document.write(''+output[i]+'');
   document.write("aaaa");
 }
