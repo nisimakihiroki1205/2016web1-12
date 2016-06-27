@@ -8,8 +8,7 @@ var message;
 document.write("aaaa");
 for(i=1;i<=100;i++)
 {
-  document.write("aaaa");
-  
+
   output[i] = i;
   
   if(i%3 == 0)
@@ -26,7 +25,7 @@ for(i=1;i<=100;i++)
   }
   
   
-  document.write(''+i+'');
+  document.write('<p>'+i+'</p>');
 
   
 }
