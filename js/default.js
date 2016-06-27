@@ -21,4 +21,5 @@ for(i=0;i==input;i++){
     output[i]=FizzBuzz;
   }
   document.write(i+'は'+output[i]);
+  document.write("aaaa");
 }
