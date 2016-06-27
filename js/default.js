@@ -9,8 +9,7 @@ document.write("aaaa");
 for(i=0;i<10;i++)
 {
   document.write("aaaa");
-}
-while(0){
+
   i++;
   
     output[i] = i
