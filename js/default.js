@@ -20,6 +20,9 @@ while(){i++;
   if(input[i]%3 == 0&&input[i]%5 == 0){
     output[i]=FizzBuzz;
   }
+  if(i==100){
+    break;
+  }
   document.write(i+'は'+output[i]);
   document.write("aaaa");
 }
