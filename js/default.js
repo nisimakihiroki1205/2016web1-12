@@ -17,6 +17,5 @@ for(i=0;i===input;i++){
   if(input[i]%3===0&&input[i]%5===0){
     output[i]=FizzBuzz;
   }
-  parseInt(window.prompt('%f') output[i]);
-
+  document.write(i"は"output[i]);
 }
