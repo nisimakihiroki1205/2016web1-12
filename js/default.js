@@ -6,10 +6,10 @@ var output = 0;// = parseInt(window.prompt('正の数字を入力して下さい
 
 var message;
 document.write("aaaa");
-for(i = 0;i == input;i++){
-  
-    output[i] = i;
-  
+while(){i++;
+  if(input[0]){
+    output[0] = 0
+  }
   
   if(input[i]%3 == 0){
     output[i]=Fizz;
