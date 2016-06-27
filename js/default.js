@@ -8,9 +8,9 @@ var message;
 document.write("aaaa");
 while(0){
   i++;
-  if(input[i]){
+  
     output[i] = i
-  }
+  
   
   if(input[i]%3 == 0){
     output[i]=Fizz;
