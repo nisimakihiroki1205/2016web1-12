@@ -9,27 +9,26 @@ document.write("aaaa");
 for(i=0;i<100;i++)
 {
   document.write("aaaa");
-
- 
   
-    output[i] = i;
+  output[i] = i;
   
-  
-  if(input[i]%3 == 0){
+  if(i%3 == 0)
+  {
     document.write('Fizz') ;
   }
-  if(input[i]%5 ==0 ){
+  if(i%5 ==0 )
+  {
    document.write('Buzz');
   }
-  if(input[i]%3 == 0&&input[i]%5 == 0){
+  if(i%3 == 0&&input[i]%5 == 0)
+  {
     document.write('FizzBuzz');
   }
-
   var name;
 
-name = '鈴木';
-document.write("<p>名前:" + name + "</p>");
- document.write(''+i+'');
+  name = '鈴木';
+  document.write("<p>名前:" + name + "</p>");
+  document.write(''+i+'');
   document.write(''+output[i]+'');
   
 }
