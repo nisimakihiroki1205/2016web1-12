@@ -1,7 +1,7 @@
 var i = Math.floor(0);
 var input = Math.floor(100);
 var output;
-
+document.write("<p>名前:" + name + "</p>");
 var output=0;// = parseInt(window.prompt('正の数字を入力して下さい。'));
 
 var message;
