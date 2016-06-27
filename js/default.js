@@ -27,6 +27,6 @@ for(i=0;i<100;i++)
   if(i==100){
     break;
   }
-  document.write(i+'は'+output[i]);
+  document.write(output[i]);
   document.write("aaaa");
 }
